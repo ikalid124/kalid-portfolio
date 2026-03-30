@@ -58,27 +58,10 @@ export interface WeeklyUpdate {
 export const weeklyUpdates: WeeklyUpdate[] = [
   // ← paste your new update here each Sunday
 
-  {
-    week: 3,
-    date: "June 22, 2025",
-    title: "Portfolio live, H2-Rover prep, & ML deep-dive",
-    summary:
-      "Shipped the first version of this portfolio and started prepping for the H2-Rover competition. Also began a focused ML study sprint on embeddings and similarity search.",
-    tags: ["Portfolio", "Coding", "School"],
-    bullets: [
-      "Deployed portfolio to Vercel — first public version is live",
-      "Reviewed H2-Rover autonomous navigation code and tuned PID constants",
-      "Read two papers on sentence embeddings for the NLP book recommender",
-      "Set up Tailwind v4 and Framer Motion animations from scratch",
-      "Updated resume with new projects and internship-ready formatting",
-    ],
-    links: [
-      { label: "Live Portfolio", href: "https://kalid-portfolio.vercel.app" },
-    ],
-  },
+
   {
     week: 2,
-    date: "June 15, 2025",
+    date: "March 30, 2026",
     title: "NLP recommender + digital design coursework",
     summary:
       "Made significant progress on the ReadMe NLP book recommender and worked through K-map simplification and Verilog design for my Digital Logic course.",
@@ -95,16 +78,17 @@ export const weeklyUpdates: WeeklyUpdate[] = [
   },
   {
     week: 1,
-    date: "June 8, 2025",
-    title: "Kickoff: setting goals & building foundations",
+    date: "March 30, 2026",
+    title: "Computer Vision intro, Calc 3 grind, & systems concepts",
     summary:
-      "First week of summer — set up my dev environment, outlined goals for the semester, and started exploring internship applications and what skills to sharpen.",
-    tags: ["Internship Prep", "Portfolio", "Coding"],
+      "Focused on learning OpenCV and computer vision fundamentals, while preparing for my Calc 3 exam covering double integrals and optimization. Also explored AI’s impact on cybersecurity and studied low-level systems concepts.",
+    tags: ["Coding", "School", "Research"],
     bullets: [
-      "Mapped out summer goals: one ML project, one embedded project, internship prep",
-      "Started researching companies with strong CE/embedded internship programs",
-      "Set up Next.js 15 portfolio project from scratch with TypeScript and Tailwind",
-      "Reviewed core data structures in prep for technical interviews",
+      "Started learning computer vision fundamentals using OpenCV and pushed progress to GitHub",
+      "Studied Calc 3 topics: double integrals, max/min in 3D, and directional derivatives for upcoming exam",
+      "Researched the impact of AI across industries, with focus on cybersecurity applications and risks",
+      "Learned about interrupts in CMPE 310 (System Design & Programming)",
+      "Helped set up and run the EESA gala event",
     ],
   },
 ];
