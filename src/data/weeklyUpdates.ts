@@ -49,6 +49,7 @@ export interface WeeklyUpdate {
   summary: string;
   tags?: UpdateTag[];
   bullets?: string[];
+  goals?: string[];
   links?: WeeklyUpdateLink[];
 }
 
@@ -89,6 +90,14 @@ export const weeklyUpdates: WeeklyUpdate[] = [
       "Researched the impact of AI across industries, with focus on cybersecurity applications and risks",
       "Learned about interrupts in CMPE 310 (System Design & Programming)",
       "Helped set up and run the EESA gala event",
+    ],
+    goals: [
+      "Build a small end-to-end computer vision project (real-time detection or filtering)",
+      "Perform strongly on upcoming Calc 3 exam",
+      "Deepen understanding of low-level systems concepts (interrupts, memory, execution flow)",
+    ],
+    links: [
+      { label: "Computer Vision Practice Repo", href: "https://github.com/ikalid124/Computer-Vision-Practice" },
     ],
   },
 ];
