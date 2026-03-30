@@ -14,7 +14,7 @@ const contacts = [
     icon: Linkedin,
     label: "LinkedIn",
     value: "Kalid I.",
-    href: "https://linkedin.com/in/kalid-i",
+    href: "https://www.linkedin.com/in/kalid-ibrahim-b57259355/",
   },
   {
     icon: Github,
@@ -24,7 +24,7 @@ const contacts = [
   },
   {
     icon: Phone,
-    label: "Phone",
+    label: "For serious inquiries",
     value: "(301) 768-6249",
     href: "tel:+13017686249",
   },
