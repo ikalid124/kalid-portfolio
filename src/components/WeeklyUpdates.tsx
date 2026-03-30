@@ -57,6 +57,23 @@ function UpdateCard({ update }: { update: WeeklyUpdate }) {
           </ul>
         )}
 
+        {/* Goals */}
+        {update.goals && update.goals.length > 0 && (
+          <div className="mb-4">
+            <p className="text-xs font-mono text-accent-light uppercase tracking-wider mb-2">
+              Goals for next week
+            </p>
+            <ul className="space-y-1.5">
+              {update.goals.map((goal, i) => (
+                <li key={i} className="flex items-start gap-2.5 text-sm text-muted">
+                  <span className="mt-1.5 w-1 h-1 rounded-sm bg-accent/40 shrink-0 rotate-45" />
+                  {goal}
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+
         {/* Links */}
         {update.links && update.links.length > 0 && (
           <div className="flex flex-wrap gap-3 pt-1">
